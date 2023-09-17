@@ -1,0 +1,71 @@
+/* Establecer el estilo base para la página */
+body {
+    font-family: 'Roboto', sans-serif; /* Ejemplo de una fuente de Google Fonts */
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Limitar el ancho y centrar el elemento principal horizontalmente */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilo de las tarjetas de la columna principal utilizando CSS Grid */
+.card {
+    display: grid;
+    grid-gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Estilo para la lista de enlaces del curso */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para el encabezado */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #001f3f; /* Fondo azul marino */
+    color: #fff; /* Texto blanco */
+    padding: 10px; /* Espaciado interior para el encabezado */
+}
+
+header img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para el segundo párrafo del pie de página (id="lastModified") */
+#lastModified {
+    font-style: italic;
+}
