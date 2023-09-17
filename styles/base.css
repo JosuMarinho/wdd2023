@@ -1,6 +1,5 @@
 @import url('https://fonts.google.com/specimen/Roboto');
 
-
 body {
     font-family: 'Roboto', sans-serif; 
     background-color: #f0f0f0;
@@ -40,7 +39,7 @@ h3 {
 }
 
 p {
-    margin: 0;
+    margin: 10;
     text-align: center;
     
 }
